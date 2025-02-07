@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class MultiplicstionTable 
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the number for table: ");
+		int num1= new Scanner(System.in).nextInt();
+		System.out.print("Enter the limit where you want: ");
+		int limit = new Scanner(System.in).nextInt();
+
+		for (int i = 1;i<=limit ;i++ )
+		{
+			System.out.println(num+"x"+i+" = "+(num1*i));
+		}
+	}
+}

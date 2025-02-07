@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class ReverseString 
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the Number: ");
+		long num = new Scanner(System.in).nextLong();
+		long dup = num;
+		long rev =0;
+		
+		/*
+		while(num>0)
+		{
+			long rem = num%10;
+			rev = rev*10+rem;
+			num/=10;
+		}
+		*/
+
+		for (;num>0;)  //yes we use for loop like this
+		{
+			long rem = num%10;
+			rev = rev*10+rem;
+			num/=10;
+		}
+		System.out.println();
+		System.out.println(dup+" Reverse is "+rev);
+
+		System.out.println();
+		if (dup == rev)
+			System.out.println("It is Palindrome: "+rev);
+	}
+}
+
+
+/*
+
+>Here using while lopp we can reverse thhe number and also check the palindrome is not
+>we use num%10 for getting last digit of the inputted number.
+>and then we use the rev variable and store the reminder variable data using formula ..... rev=rev*10+rem;
+>then i want to delete the last number when getting last digit we use formula = num = num/10.
+>and i check the given string is palindrome is not then i use dup variable for storing the num variable data and then i compare reverse variable and dup variable is samae or not ,if same then palindrome.
+*/

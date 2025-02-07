@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class VovelsUsingForloop 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter your name: ");
+		String nm = sc.nextLine().toUpperCase();
+
+		for (int i = 0;i<nm.length();i++)
+		{
+			char ch = nm.charAt(i);
+			if (ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+			{
+				System.out.print(ch+"  ");
+			}
+		}
+	}
+}

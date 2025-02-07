@@ -1,0 +1,14 @@
+class EvenNumFoeLoop 
+{
+	public static void main(String[] args) 
+	{
+		for (int i = 0;i<=100 ;i++ )
+		{
+			if (i%2==0)
+			{
+				System.out.println(i);
+			}
+		}
+	}
+}
+//Here we print the even number in between 1 - 100 using for loop, i use if block

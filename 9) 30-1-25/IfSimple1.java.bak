@@ -1,0 +1,18 @@
+class IfSimple1 
+{
+	public static void main(String[] args) 
+	{
+		//variables
+		static int a ;
+
+		{
+			int b = 20;
+			System.out.println(b);
+		}
+		{	
+			int b = 30;
+			System.out.println(b);
+		}
+		System.out.println(a);
+	}
+}

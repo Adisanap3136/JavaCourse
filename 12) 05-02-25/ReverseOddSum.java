@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class  ReverseOddSum
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the number: ");
+		int num = new Scanner(System.in).nextInt();
+		int oddSum=0;
+		int rem= 0;
+		for(;num>0;)
+		{
+			rem=num%10;
+			if (rem%2!=0)
+			{	oddSum+=rem;
+			}
+			num/=10;
+		}
+		System.out.println(oddSum);
+	}
+}
