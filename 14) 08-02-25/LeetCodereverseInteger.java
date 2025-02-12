@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class LeetCodereverseInteger 
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the num: ");
+		int x = new Scanner(System.in).nextInt();
+			boolean flag = false;
+			if (x<0)
+			{
+				flag = true;
+				x = Math.abs(x);
+			}
+			long rev = 0;
+			for(int i=x;i>0;i/=10)
+			{
+				rev = rev*10+(i%10);
+			}
+			if(flag)
+			{
+				rev = rev*(-1);
+			}
+			if(rev>Integer.MAX_VALUE||rev<Integer.MIN_VALUE)
+			{
+				x = 0;
+			}
+			else 
+			{	
+				System.out.println(rev);
+			}
+	}
+}
