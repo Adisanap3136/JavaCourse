@@ -16,3 +16,11 @@ class Pattern9
 		}
 	}
 }
+
+/*
+a
+1 2
+b c d
+1 2 3 4
+e f g h i
+*/

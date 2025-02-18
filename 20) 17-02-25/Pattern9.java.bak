@@ -10,7 +10,7 @@ class Pattern9
 				if(i==1||i==3||i==5)
 					System.out.print(c++ +" ");
 				else
-					System.out.print(j);
+					System.out.print(j+" ");
 			}
 			System.out.println();
 		}
