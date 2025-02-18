@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class PrimeNumberRange
+{
+	public static void main(String[] args)
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.print("Enter the Starting Number: ");
+		int start=sc.nextInt();
+		System.out.print("Enter the Ending Number: ");
+		int end =sc.nextInt();
+		int temp=0;
+		int cnt=0;
+		for (int i=start;i<=end;i++)
+		{
+			for(int j=2;j<i;j++)
+			{
+				if(i%j==0){
+					temp=1;
+					break;
+				}
+			}
+			if(temp==0){
+				System.out.print(i+" ");
+				cnt++;
+			}
+			else
+				temp=0;
+		}
+		System.out.println("\ncount is: "+cnt);
+	}
+}
