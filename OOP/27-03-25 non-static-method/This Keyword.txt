@@ -1,0 +1,3 @@
+- Here we understand non static method and this keyword
+- this is a keyword and a non-static variable
+- this keyword is use to access a non static variable if the same name of loacal variable is there

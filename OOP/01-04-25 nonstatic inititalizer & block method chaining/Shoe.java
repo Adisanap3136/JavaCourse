@@ -1,0 +1,60 @@
+class Shoe
+{
+	//String brand = "ADIDAS";
+	//String brand ="Nike";
+	String brand ;
+	double price ;
+	byte size ;
+	String color ;
+
+	{
+		System.out.println("non static start");
+			if(brand.charAt(0)=='N'){
+		    //if(brand.equals("Nike")){
+			price = 7000.0;
+			System.out.println(brand +" in if blk non static");
+		}
+		else{
+			price =10000.0;
+		}
+		System.out.println("non static End");
+	}
+
+	public void show()
+	{
+		System.out.println("show start");
+		if(brand.charAt(0)=='N'){
+		 // if(brand.equals("Nike")){
+			price = 7000.0;
+			System.out.println(brand +" in if blk");
+		}
+		else{
+			price =10000.0;
+			System.out.println(brand +" in else blk");
+
+		}
+		System.out.println("show end");
+	}
+
+	public void displayShoe(){
+		System.out.println(brand);
+		System.out.println(price);
+		System.out.println(size);
+		System.out.println(color);
+	}
+}
+/*
+ip input is NIKE : output
+Nike
+7000.0
+0
+null
+
+----------------------------
+
+if input is ADIDAS: output
+ADIDAS
+10000.0
+0
+null
+*/

@@ -1,0 +1,20 @@
+class MobileDriver
+{
+	public static void main(String[] args)
+	{
+		Mobile m1 = new Mobile();
+		System.out.println("m1 object Reference: "+m1);
+
+		m1.brand = "Apple";
+		m1.price = 150000;
+		m1.model = "16 pro max";
+
+		m1.displayMobile();
+
+		System.out.println("\n-----------------------------\n");
+
+		Mobile m2 = new Mobile();
+		System.out.println("m1 object Reference: "+m2);
+		m2.displayMobile();
+	}
+}

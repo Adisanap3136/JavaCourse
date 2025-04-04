@@ -1,0 +1,12 @@
+class StudentDriver
+{
+	public static void main(String[] args)
+	{
+		Student s1 =new Student("MAX",21,"Cambridge","MS",10);
+		s1.displayStudent();
+		Student s2 =new Student("Eaju",21,"Cambridge","MS",10);
+		s2.displayStudent();
+		Student s3 = new Student();
+
+	}
+}

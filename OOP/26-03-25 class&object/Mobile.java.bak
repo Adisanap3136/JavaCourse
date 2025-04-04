@@ -1,0 +1,10 @@
+class Mobile
+{
+	String brand;
+	String model;
+	int price;
+	String color;
+	int ram;
+	int storage;
+	int wt;
+}

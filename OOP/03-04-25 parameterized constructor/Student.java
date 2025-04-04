@@ -1,0 +1,37 @@
+class Student
+{
+	String name;
+	int age;
+	String coll;
+	String degree;
+	int roll;
+
+	Student()
+	{
+		System.out.println("no args contructor start");
+	}
+
+	Student(String name,int age,String coll,String degree,int roll)
+	{
+		System.out.println("Para Constructor Start");
+		this.name = name;
+		this.age = age;
+		this.coll = coll;
+		this.degree = degree;
+		this.roll = roll;
+		displayStudent();
+		System.out.println("object loded");
+		System.out.println("Para Constructor End");
+	}
+
+	public void displayStudent()
+	{
+		System.out.println("Display Start");
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(coll);
+		System.out.println(degree);
+		System.out.println(roll);
+		System.out.println("Display End");
+	}
+}

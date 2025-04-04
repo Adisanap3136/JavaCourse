@@ -1,0 +1,25 @@
+class Bike_This
+{
+	String brand;
+	String name;
+	float price;
+	int cc;
+	int mileage;
+
+	public void showBike()
+	{
+		String name = "Chapri Bike";
+
+		System.out.println("this: "+this);
+
+		System.out.println("brand: "+brand);
+		System.out.println("Price: "+price);
+
+		System.out.println("loacal name: "+name);
+
+		System.out.println("Non static name: "+this.name);
+
+		System.out.println("CC: "+cc);
+		System.out.println("Mileage: "+mileage);
+	}
+}

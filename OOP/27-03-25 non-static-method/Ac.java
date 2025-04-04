@@ -1,0 +1,28 @@
+class Ac
+{
+	String brand;
+	float price;
+	float ton;
+	float maxTemp;
+	float minTemp;
+	float ambTemp;
+
+	public void displayDetails()
+	{
+		System.out.println("Brand: "+brand);
+		System.out.println("Price: "+price);
+		System.out.println("Tons: "+ton);
+	}
+	public void showMaxTemp()
+	{
+		System.out.println("Max Temperature: "+maxTemp);
+	}
+	public void showMinTemp()
+	{
+		System.out.println("Min Temperature: "+minTemp);
+	}
+	public void showAmbTemp()
+	{
+		System.out.println("Ambient Temperature: "+ambTemp);
+	}
+}
