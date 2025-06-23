@@ -1,4 +1,3 @@
-package principleOfOop;
 
 //09-04-25
 public class Student {
@@ -12,7 +11,7 @@ public class Student {
 	private double sscPer;
 	private double hscPer;
 	private long phno;
-	
+
 	public Student(String name, String course, double fees, String branch, double cgpa, String degree, double sscPer,
 			double hscPer, long phno) {
 		this.name = name;
@@ -24,8 +23,8 @@ public class Student {
 		this.sscPer = sscPer;
 		this.hscPer = hscPer;
 		this.phno = phno;
-		
-		System.out.println(name+" - Studnet registerd");
+
+		System.out.println(name+" -Studnet registerd");
 	}
 
 	public String getInstitute() {
@@ -67,7 +66,7 @@ public class Student {
 	public long getPhno() {
 		return phno;
 	}
-	
+
 	public void setPhno(boolean permission,long phno)
 	{
 		if(permission)
@@ -105,5 +104,5 @@ public class Student {
 
 		}
 	}
-	
+
 }
