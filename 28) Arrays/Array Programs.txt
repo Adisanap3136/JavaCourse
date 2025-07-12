@@ -1,0 +1,47 @@
+Arrays Program list
+
+07-07-25
+	-Array Creation 
+	-Array Accessing
+	-Array data storing
+	-Another type of array creation
+	-Non-static type Array
+08-07-25
+	-Check if element is present or not in array
+	-Count of Even odd element in array
+	-take a count of prime number from array
+	-Check Palindrome using two pointer logic
+	-create a copy of array (duplicate array)
+	-Find the sum of all element present in array using method
+	-Find the sum of all element present in array in main ()
+	-Reverse the given array logic 1
+	-Reverse the given array logic 2
+	-Sum of all even number and odd number present in array take evenSum,oddSum variables
+	-Reverse the half array form second half
+09-07-25
+	-Find the element and their index, with occurrence and present or not in array
+	-Reverse the Half array
+	-Merge the two array logic 1 simple
+	-Merger the two array logic two imp
+	-merge the array and and reverse it
+	-merge the array and reverse second array in merger array
+	-merge the array both array store reversly
+	-ZIG ZAG ARRAY for three test cases
+10-07-25
+	-Zig zag logics and solution
+	-revere the both array
+	-Find missing element only
+	-Make an array positive
+	-Make an array even
+	-push positive one side and push negative in other side from given array
+	-reverse both array and merger
+	-Reverse the given array without using second array using swapping 
+11-07-25
+	-Find the max element from array
+	-Find the min element in array
+	-find the missing number (we use n*(n+1)/2 formula )
+	-Find the second largest element in array
+	-Reverse the array using swapping with temp and without temp
+	-Reverse the array using two pointer
+	-find the third min element
+	-find the third max element
