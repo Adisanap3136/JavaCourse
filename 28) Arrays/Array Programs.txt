@@ -41,7 +41,28 @@ Arrays Program list
 	-Find the min element in array
 	-find the missing number (we use n*(n+1)/2 formula )
 	-Find the second largest element in array
-	-Reverse the array using swapping with temp and without temp
+	-Reverse the array using swapping with temp and without temp in same array
 	-Reverse the array using two pointer
-	-find the third min element
-	-find the third max element
+	-find third min 
+	-find third max
+12-07-25
+	-Push positive one side and Negative one side
+	-Remove an element from array
+	-Remove index from array
+	-Add an element at specific index
+	-
+14-07-25
+	-insert an another array element into another array ,user give the range of that array then 	 you this range into another array
+	-Remove range from array
+	-Remove the all duplicate element(occurrence) from array
+IMP	-Find frequency of element imp for all algorithms
+15-07-25
+	-remove the duplicate using frequency logic
+	-remove the same element of given array from second array
+	-intersection code ....means fetch same element which is present in both array
+	-Access unique element from both array
+	-Access only duplicate element
+	-Access only similar element from both array
+16-07-25 
+	-Bubble sort
+	-Binary search
